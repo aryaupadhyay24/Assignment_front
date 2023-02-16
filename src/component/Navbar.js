@@ -12,9 +12,9 @@ const Navbar = () => {
                      <span class="navbar-toggler-icon"></span>
                </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 myfun">
 
-                            <li className="nav-item dropdown" style={{ marginLeft: "130px" }}>
+                            <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle active" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Products 
                                 </a>

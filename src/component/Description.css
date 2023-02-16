@@ -86,7 +86,17 @@
     /* body {
       background-color: lightgreen;
     } */
-
+    .content .leftitem{
+        max-width: 100vw;
+        line-height: 23px;
+    }
+    .content .leftitem .title{
+        font-size: 21px;
+        line-height: 29px;
+    }
+    .content .leftitem .about{
+        font-size: 16px;
+    }
     .hovering{
         top: 242px;
     }
@@ -107,11 +117,13 @@
     } */
     .content .rightitem iframe{
 
-        width: 80vw;
+        width: 85vw;
+        height: 47vw;
         margin: 0px;
       
         padding: 0px;
         margin-left: 0px;
+        margin-top: -20px;
         
     }
     .content .leftitem {
@@ -121,22 +133,38 @@
 
   }
   @media screen and (max-width: 1080px){
+    
     .description-wrapper{
         margin-top: 150px;
         padding: 0px;
     }
-    .content .rightitem iframe{
+    
+    /* .content .rightitem iframe{
         width: 420px;
         height:245px;
-    }
+    } */
     .content{
         padding: 0px;
         margin: 0px;
     }
-    .install-now{
+    /* .install-now{
         position: relative;
         left: 45px;
         top:31px;
+    } */
+    .myfun{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 90px;
+    }
+    .install-now{
+        /* position: absolute;
+        left: 40px; */
+        /* padding-left: 42px; */
     }
   } 
 
@@ -178,4 +206,21 @@
  /* .hovering .items{
     border: 3px solid grey;
     border-radius: 50%;
+ } */
+ /* @media screen and (max-width: 460px) {
+    .content .leftitem{
+        max-width: 100vw;
+        line-height: 23px;
+    }
+    .content .leftitem .title{
+        font-size: 21px;
+        line-height: 29px;
+    }
+    .content .leftitem .about{
+        font-size: 16px;
+    }
+    .rightitem iframe{
+        width: 90vw;
+        height: 22px;
+    }
  } */
